@@ -1,0 +1,165 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="-9" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="6mBoY_iHS@@kVb+eg8cX" x="-10" y="10">
+      <field name="LOAD_COMP_ASSETS">FALSE</field>
+      <field name="FULLSCREEN">TRUE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="false" scrollx="-63.20007324218784" scrolly="119.80001068115237" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="show" id="d2t[^eljn=W*$Oe`j],Q" x="190" y="50">
+      <value name="VALUE">
+        <shadow type="objectList" id="Nh[(F$3Z{ZaGm/2RRh!#">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="+`WsG}3[LjNp7$9e8l]W">
+          <field name="FIELDNAME">luffy_group</field>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id="?2TuGzxwWNEt[GmN|.?.">
+          <value name="VALUE">
+            <shadow type="objectList" id="coE5Nnp+g{BPLBpd*I/.">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="s`ux)V.PZIobuR0f(Aom">
+              <field name="FIELDNAME">indicator_group</field>
+            </block>
+          </value>
+          <next>
+            <block type="playAnimationAdv" id="8IZiQm5`6oVFY-q|6c!d">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+              <field name="REVERSED">FALSE</field>
+              <field name="LOOP">LoopRepeat</field>
+              <value name="VALUE">
+                <shadow type="animationList" id="/C6SR5=cBh{p~#.mD;7L">
+                  <field name="FIELDNAME">Armature</field>
+                </shadow>
+              </value>
+              <value name="FROM">
+                <shadow type="math_number" id="lKD]rWX@,aJpkr08s~)+">
+                  <field name="NUM">0</field>
+                </shadow>
+              </value>
+              <value name="TO">
+                <shadow type="math_number" id="3uLbUW6leoIRY5fM34VX">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <value name="SPEED">
+                <shadow type="math_number" id="/b[CH[Z+,pH~tE{*/Llf">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="whenClicked" id="vz3ij^hU(XPkm}%oFOjq" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id=":}7VsahW*k]SD8X8Gi~f">
+                      <field name="FIELDNAME">21_teeth_1_0_0</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="playSound" id="RFKMc2O?szm$lk:b/hVj">
+                      <field name="LOOP">FALSE</field>
+                      <value name="VALUE">
+                        <block type="loadSoundAdv" id="ZG[TkQedxet.xud`UZs2">
+                          <field name="TYPE">SOUND</field>
+                          <value name="URL">
+                            <shadow type="text" id="t;0H|Qm1,pBWOJQX@Z5R">
+                              <field name="TEXT">./sounds/hello.mp3</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="stopAnimation" id=":y(/~D;V47_K+)t$o6e1">
+                          <value name="VALUE">
+                            <shadow type="animationList" id="T?io$u7Iw~OT6^Yyj1y(">
+                              <field name="FIELDNAME">Armature</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="playAnimationAdv" id="(0r~mAap{*J*TfnTJ=kd">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="[Du}eR*MH7!lH,a~H~`g">
+                                  <field name="FIELDNAME">Armature</field>
+                                </shadow>
+                              </value>
+                              <value name="FROM">
+                                <shadow type="math_number" id="3m7Y%Q=xPgoKk[u;n~ui">
+                                  <field name="NUM">3</field>
+                                </shadow>
+                              </value>
+                              <value name="TO">
+                                <shadow type="math_number" id="%)y{aNAW?kYlf|6cQU]7">
+                                  <field name="NUM">111</field>
+                                </shadow>
+                              </value>
+                              <value name="SPEED">
+                                <shadow type="math_number" id="_4{JNr}/eo[SOmR[rv9;">
+                                  <field name="NUM">1</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="Ar" type="CommonTab" active="true" scrollx="2.2737367544323206e-13" scrolly="0" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="checkARMode" id="E`.?rA,PuE1mMiTCL`{d" x="110" y="90">
+      <statement name="DO_AVAIL">
+        <block type="eventHTMLElem" id="EK)z=;[ms%rC7f`-3.Qo">
+          <field name="EVENT">click</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="WCQ!W7#L,W7wP-P5O%~m">
+              <field name="TEXT"></field>
+            </shadow>
+            <block type="text" id="c;z8#;YTucX!+Da1R@L-">
+              <field name="TEXT">enter_AR_button</field>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="enterARMode" id="qZIovoEI?R+J:-19%iZ0">
+              <field name="REF_SPACE">ORIGIN</field>
+              <field name="ALLOW_HTML">TRUE</field>
+              <statement name="DO_ENTER">
+                <block type="hide" id="Yv;!:S*;#*-_JONOSz67">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="M4Pg?])QO.GE-.TH=RWK">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                    <block type="groupList" id="/Q{-)S-_yaVDqs_3jvK[">
+                      <field name="FIELDNAME">luffy_group</field>
+                    </block>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1043.200061035156" viewport-y="41.0000114440918" viewport-w="417.6" viewport-h="349" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

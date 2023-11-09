@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-75.20004272460949" scrolly="116.00006103515625" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="show" id="d2t[^eljn=W*$Oe`j],Q" x="190" y="50">
+      <value name="VALUE">
+        <shadow type="objectList" id="Nh[(F$3Z{ZaGm/2RRh!#">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="groupList" id="+`WsG}3[LjNp7$9e8l]W">
+          <field name="FIELDNAME">luffy_group</field>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id="?2TuGzxwWNEt[GmN|.?.">
+          <value name="VALUE">
+            <shadow type="objectList" id="coE5Nnp+g{BPLBpd*I/.">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="s`ux)V.PZIobuR0f(Aom">
+              <field name="FIELDNAME">indicator_group</field>
+            </block>
+          </value>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1035.200061035156" viewport-y="46.60000991821289" viewport-w="417.6" viewport-h="349" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
